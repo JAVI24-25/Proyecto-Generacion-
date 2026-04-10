@@ -10,7 +10,6 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
   ],
   "rules": {
@@ -29,6 +28,5 @@
         "alphabetize": { "order": "asc", "caseInsensitive": true }
       }
     ]
-  },
-  "ignorePatterns": ["coverage/**", "dist/**", "node_modules/**", "*.config.js"]
+  }
 }
